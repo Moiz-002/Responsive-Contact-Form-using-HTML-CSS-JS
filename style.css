@@ -51,6 +51,9 @@ body {
   max-width: 37.5rem; 
 }
 
+.contact-form>h1{
+  color: var(--grey-900);
+}
 .form {
   display: flex;
   flex-direction: column;
