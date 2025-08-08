@@ -32,7 +32,7 @@ submitButton.addEventListener("click", (e) => {
     if(document.body.contains(toast)){
       setInterval(() => {
       document.body.removeChild(toast);
-    }, 5000);
+    }, 3000);
     }
   }
 });
